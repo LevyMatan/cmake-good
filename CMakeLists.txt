@@ -35,3 +35,6 @@ endforeach(item RANGE 0 99 10)
 
 add_subdirectory(say-hello)
 add_subdirectory(hello-exe)
+add_subdirectory(cmake-functions)
+add_subdirectory(cmake-property)
+add_subdirectory(cmake-scopes)

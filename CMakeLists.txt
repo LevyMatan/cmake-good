@@ -8,6 +8,8 @@ message(STATUS "Here is a message, the next words are actually a variable: ${MY_
 
 if("TRUE")
     message(STATUS "I am a message from if")
+else()
+    message(STATUS "I am a message from else")
 endif()
 
 add_subdirectory(say-hello)
